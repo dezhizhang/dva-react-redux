@@ -15,7 +15,7 @@ function CounterPage() {
   );
 }
 
-CounterPage.propTypes = {
+CounterPage.propTypes = {  
 };
 
 export default connect()(CounterPage);

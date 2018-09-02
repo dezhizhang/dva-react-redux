@@ -12,8 +12,9 @@ const app = dva({
 // app.use({});
 
 // 3. Model
-// app.model(require('./models/example').default);
-
+ app.model(require('./models/counter').default);
+ app.model(require('./models/example').default);
+ 
 // 4. Routerx
 app.router(require('./router').default);
 
