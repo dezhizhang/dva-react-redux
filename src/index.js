@@ -10,7 +10,7 @@ const app = dva();
 // 3. Model
 // app.model(require('./models/example').default);
 
-// 4. Router
+// 4. Routerx
 app.router(require('./router').default);
 
 // 5. Start
